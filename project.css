@@ -1,0 +1,435 @@
+body {
+  position: relative;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.bodyclass {
+  min-height: 100vh;
+}
+
+.up {
+  background-color: white;
+  padding: 30px;
+}
+
+nav {
+  margin-top: 60px;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: 40px;
+  font-size: 20px;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo p {
+  font-weight: bold;
+  color: black;
+}
+
+#logo {
+  margin-top: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.navbar {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar li {
+  color: black;
+  list-style: none;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.createaccount {
+  border-radius: 20px;
+  width: 200px;
+  height: 50px;
+  background-color: orange;
+  border: 0;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.up a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.navbar li a:hover {
+  color: orange;
+}
+
+p {
+  font-weight: bold;
+}
+
+.second {
+  display: flex;
+  flex-wrap: wrap; /* Added for better responsiveness */
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5%;
+  padding: 5%;
+  font-size: 30px;
+}
+
+.sectiondiv {
+  padding-left: 2%;
+}
+
+.images {
+  display: flex;
+  max-width: 50vw;
+  height: auto; /* Added for better image scaling */
+  border-radius: 10px;
+  justify-content: center;
+}
+
+span.healthy {
+  color: orange;
+}
+
+.order {
+  background-color: orange;
+  border: 0;
+  border-radius: 10px;
+  width: 250px;
+  height: 50px;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.order a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.features {
+  margin-top: 100px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 200px;
+  min-height: 100vh;
+}
+
+h2.choose {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.feature-items {
+  margin-top: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-inline: 50px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.feature-item {
+  background-color: #f9f9f9;
+  border-radius: 30px;
+  text-align: center;
+  max-width: 100%;
+  flex: 1 1 300px;
+  height: auto;
+  box-shadow: 0 0.5px 1px orange;
+}
+
+.image-item {
+  max-width: 120px;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.feature-item h3 {
+  padding-top: 15px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.feature-item p {
+  padding-top: 8px;
+  font-size: 1.5rem;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.link:hover {
+  color: orange;
+}
+.subscribesection {
+  margin-top: 100px;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 100vh;
+}
+.subscribesection h3 {
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 10px;
+  font-size: 35px;
+}
+.subscribesection hr {
+  width: 10%;
+  border-top: 5px solid orange;
+}
+.container {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 200px;
+}
+form {
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+}
+
+.set {
+  font-size: 22px;
+  width: 230px;
+  height: 50px;
+  border-radius: 10px;
+  border: 0;
+  box-shadow: 2px 2px 2px 2px grey;
+}
+form input::placeholder {
+  text-align: center;
+}
+#subscribenow {
+  background-color: orange;
+  color: #f9f9f9;
+  font-weight: bold;
+}
+.dontdiv {
+  margin-bottom: 25px;
+}
+.dont {
+  text-align: right;
+  font-size: 50px;
+  font-weight: bold;
+  padding-right: 50px;
+}
+.small {
+  font-size: 25px;
+  font-weight: lighter;
+}
+.testimony {
+  min-height: 100vh;
+  flex-grow: 1;
+  padding-bottom: 300px;
+}
+.wilson {
+  padding-left: 8%;
+  display: flex;
+  margin-bottom: 10px;
+}
+.jenny {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.wilson p {
+  width: 20%;
+  text-align: left;
+  padding-left: 20px;
+  font-weight: lighter;
+}
+#jenny {
+  text-align: center;
+  color: red;
+}
+.Lane {
+  justify-content: flex-end;
+  float: right;
+  display: flex;
+  margin-bottom: 30px;
+  padding-right: 50px;
+}
+.Lane p {
+  width: 20%;
+  text-align: left;
+  padding-left: 20px;
+  font-weight: lighter;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #faf9f9;
+  /* justify-content: space-around;
+  align-items: center; */
+}
+.first {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+.first p {
+  font-weight: lighter;
+  text-align: left;
+}
+footer hr {
+  border-top: 1px solid rgb(159, 157, 157);
+  margin-bottom: 20px;
+}
+/* .copy {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+  padding: 0px 50px;
+
+  margin-left: 100px;
+  width: 100%;
+}
+.face2 {
+  width: 100%;
+}
+.face2 img {
+  width: 10%;
+  justify-content: flex-end;
+  display: flex;
+  align-items: flex-end;
+}
+.face {
+  justify-content: flex-end;
+} */
+
+.copy {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+}
+.face2 img {
+  width: 10%;
+}
+
+/* Media queries for adjusting to devices */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .createaccount {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .second {
+    flex-direction: column;
+    font-size: 1.5rem;
+  }
+
+  h2.choose {
+    font-size: 3rem;
+  }
+
+  .feature-item {
+    height: auto;
+  }
+  form {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  h2.choose {
+    font-size: 2rem;
+  }
+
+  .second {
+    padding: 2%;
+    font-size: 1rem;
+  }
+
+  .feature-items {
+    padding-inline: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .subscribesection h3 {
+    font-size: 25px;
+  }
+  form {
+    flex-direction: column;
+  }
+  .dont {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 20px;
+  }
+  .small {
+    font-size: 10px;
+    font-weight: lighter;
+  }
+  .wilson {
+    padding-left: 20px;
+  }
+  .jenny {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .wilson p {
+    width: 50%;
+  }
+  .Lane {
+    padding-left: 20px;
+  }
+  .Lane p {
+    width: 50%;
+  }
+  .testimony {
+    min-height: 100vh;
+    flex-grow: 1;
+    padding-bottom: 100px;
+  }
+}
